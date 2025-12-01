@@ -573,10 +573,10 @@ export default function HindiShufflePage() {
                     <div
                       className={`w-full h-full flex items-center justify-center rounded-md border ${
                         showAnswer
-                          ? "bg-gray-100 text-gray-800 border-gray-300"
-                          : "bg-red-50 text-red-700 border-red-200 hover:bg-red-100"
+                          ? "bg-red-50 text-red-700 border-red-200 hover:bg-gray-100 hover:text-gray-800 text-2xl font-bold"
+                          : "bg-gray-100 text-gray-800 border-gray-300 font-bold hover:bg-red-100 text-2xl"
                       }`}
-                      style={{ fontSize: Math.floor(itemSize * 0.26) }}
+                      // style={{ fontSize: Math.floor(itemSize * 0.26) }}
                     >
                       {char}
                     </div>
